@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <h1 class="greetings center"></h1>
+      <form class="form-name"  text-align: center;>
+        <input class="input" type="text" placeholder="Please enter your name :)">
+      </form>
+
+
+      <form class="form-task center"> 
+          <input class="input" type="text" placeholder="Add task">
+      </form>
+
+
+      <div id="listContainer center">
+        <ul id="list" class="pendingList">
+          <h1>Pending</h1>
+        </ul>
+        
+        <ul id="list" class="finishList">
+          <h1>Finish</h1>
+        </ul>
+      </div>
+      
+      <div class="js-weather">
+        
+        <span class="js-weather-info"></span>
+      </div>
+
+      <div class="js-clock">
+        <h2 class="js-clock-AmPm"></h2>
+        <h1 class="js-clock-Time">00:00</h1>
+      </div>
+    <script src="name.js"></script>
+    <script src="toDo.js"></script>
+    <script src="weather.js"></script>
+    <script src="clock.js"></script>
+    <script src="bg.js"></script>
+  </body>
+</html>
